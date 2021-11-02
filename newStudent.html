@@ -1,0 +1,331 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rating System</title>
+    <meta name="description" content="Rating System">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="images/logoUAC.jpeg">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.less">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    
+</head>
+<body class="bg-grey">
+
+    <!-- Left Panel -->
+    <aside id="left-panel" class="left-panel bg-white">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./"><img src="images/logoUAC.jpeg" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="./"><img src="images/logoUAC.jpeg" alt="Logo"></a>
+            </div>
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    </li>
+                    
+                    <li>
+                        <a href="criteria.html"> <i class="menu-icon fa fa-book"></i>Criteria </a>
+                    </li>
+
+                    <li class="active">
+                        <a href="students.html"> <i class="menu-icon fa ti-user"></i>Students </a>
+                    </li>
+                    
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside><!-- /#left-panel -->
+
+    <!-- Left Panel -->
+
+    <!-- Right Panel -->
+    <div id="right-panel" class="right-panel">
+
+        <!-- Header-->
+        <header id="header" class="header">
+
+            <div class="header-menu">
+
+                <div class="col-sm-7">
+                    <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                    <div class="header-left">
+                        <button class="search-trigger"><i class="fa fa-search"></i></button>
+                        <div class="form-inline">
+                            <form class="search-form">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">
+                                <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-5">
+                    
+                    <div class="user-area dropdown float-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="float-right">&nbsp;username</span>
+                            <img class="user-avatar rounded-circle" src="images/logoUAC.jpeg" alt="User Avatar">
+                        </a>
+
+                        <div class="user-menu dropdown-menu">
+                                <a class="nav-link" href="#"><i class="fa ti-user"></i>&nbsp;&nbsp;My Profile</a>
+
+                                <a class="nav-link" href="#"><i class="fa fa-close"></i>&nbsp;&nbsp;Logout</a>
+                        </div>
+                    </div>
+                                
+                    <!-- <div class="language-select dropdown" id="language-select">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+                            <i class="flag-icon flag-icon-us"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="language" >
+                            <div class="dropdown-item">
+                                <span class="flag-icon flag-icon-fr"></span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+        </header><!-- /header -->
+        <!-- Header-->
+<!--
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Dashboard</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li class="active">Dashboard</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <div class="content mt-3">
+<!--
+            <div class="col-sm-12">
+                <div class="alert  alert-success alert-dismissible fade show" role="alert">
+                  <span class="badge badge-pill badge-success">Success</span> Criterion successfully inserted
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <span class="badge badge-pill badge-danger">Danger</span> An error occured criterion not inserted
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+-->
+            <div class="container">
+				<div class="container">
+                    <div class="container">
+                        <form action="#" method="POST" class="container login-form">
+							<div class="row form-group">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="matricule" class="form-control-label">Matricule
+                                            Number</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><i class="fa ti-key fa-lg"></i></div>
+                                            <input type="text" id="matricule" name="matricule"
+                                                class="form-control" placeholder="Enter the Matricule Number">
+                                        </div><!-- /input-group -->
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name" class="form-control-label">Name</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><i class="fa ti-user fa-lg"></i>
+                                            </div>
+                                            <input type="text" id="name" name="name" class="form-control"
+                                                placeholder="Enter the Name">
+                                        </div><!-- /input-group -->
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="surname" class="form-control-label">Surname</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><i class="fa ti-user fa-lg"></i>
+                                            </div>
+                                            <input type="text" id="surname" name="surname" class="form-control"
+                                                placeholder="Enter the Surname">
+                                        </div><!-- /input-group -->
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-lg-5">
+                                            <label for="gender" class="form-control-label">Gender</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><i class="fa ti-user fa-lg"></i>
+                                                </div>
+                                                <select name="select" id="select" class="form-control">
+                                                    <option value="0">Select Sex</option>
+                                                    <option value="male">Male</option>
+                                                    <option value="female">Female</option>
+                                                </select>
+                                            </div><!-- /input-group -->
+                                        </div>
+                                        <div class="col-lg-7">
+                                            <label for="status" class="form-control-label">Marital Status</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><i class="fa ti-user fa-lg"></i>
+                                                </div>
+                                                <select name="status" id="status" class="form-control">
+                                                    <option value="0">Select Marital Status</option>
+                                                    <option value="sin">Single</option>
+                                                    <option value="mar">Married</option>
+                                                    <option value="div">Divorce</option>
+                                                </select>
+                                            </div><!-- /input-group -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="prof" class="form-control-label">Profile</label>
+                                    <div class="input-group">
+                                        <div class="prof">
+                                            <a><img id="pic" name="profile" onclick="chooseFile();" src=""
+                                                    alt="" class="img-fluid"
+                                                     /></a>
+                                            <div style="height: 0; overflow: hidden">
+                                                <input type="file" name="profile" id="inpic" class="form-control" /> 
+                                                </div>
+                                        </div>
+                                        <div>
+                                            <i class="float-right fa ti-camera fa-lg" onclick="chooseFile();"></i>
+                                        </div>
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+							</div>
+                            <div class="row form-group">
+                                <div class="col-lg-5">
+                                    <label for="dob" class="form-control-label">Date of Birth</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa ti-calendar fa-lg"></i></div>
+                                        <input type="date" class="form-control" id="dob" name="dob" placeholder="Enter the Date of Birth">
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                                <div class="col-lg-1">
+                                    <label for="pob" class="form-control-label"><br></label>
+                                    <div class="input-group">
+                                        <label for="pob" class="form-control-label">At</label>
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                                <div class="col-lg-6">
+                                    <label for="pob" class="form-control-label">Place of Birth</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa ti-pin fa-lg"></i></div>
+                                        <input type="text" class="form-control" id="pob" name="pob" placeholder="Enter the Place of Birth">
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                            </div><!-- /.form-group -->
+							<div class="row form-group">
+                                <div class="col-lg-6">
+                                    <label for="email" class="form-control-label">Email</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa ti-email fa-lg"></i></div>
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Enter the Email">
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                                <div class="col-lg-6">
+                                    <label for="phone" class="form-control-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-phone fa-lg"></i></div>
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter the Phone Number">
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+							</div><!-- /.form-group -->
+							<div class="row form-group">
+                                <div class="col-lg-6">
+                                    <label for="address" class="form-control-label">Address</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa ti-home fa-lg"></i></div>
+                                        <input type="text" class="form-control" id="address" name="address" placeholder="Enter the Address">
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                                <div class="col-lg-6">
+                                    <label for="role" class="form-control-label">Role</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa ti-user fa-lg"></i>
+                                        </div>
+                                        <select name="role" id="role" class="form-control">
+                                            <option value="0">Student</option>
+                                            <option value="1">Delegate</option>
+                                            <option value="2">Vice Delegate</option>
+                                        </select>
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+							</div><!-- /.row, .form-group -->
+                            <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">
+                                <i class="fa fa-dot-circle-o"></i> Save  
+                            </button>
+                        </form>
+                    </div>
+				</div>
+			</div>
+        </div><!-- .content -->
+
+    </div><!-- /#right-panel -->
+
+    <!-- Right Panel -->
+
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/others/jquery.js" rel="script"></script>
+    <script src="assets/js/others/bootstrap.js" rel="script"></script>
+    <script src="assets/js/others/npm.js" rel="script"></script>
+
+    <script>
+        $(window).load(function () {
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('#pic').attr('src', e.target.result);
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+            $("#inpic").change(function () {
+                readURL(this);
+            });
+        });
+
+        function chooseFile() {
+            $("#inpic").click();
+        }
+    </script>
+
+</body>
+</html>
